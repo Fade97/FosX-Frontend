@@ -16,10 +16,19 @@ body {
     height: 100%;
     min-height: 100%;
     max-height: 100%;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+@media screen and (max-device-width: 1024px) {
+    #headerBg {
+        background-attachment: scroll;
+    }
 }
 
 #content {
@@ -56,12 +65,12 @@ body {
 }
 
 .animated {
-    -webkit-animation-duration: 1s;
     animation-duration: 1s;
-    -webkit-animation-fill-mode: both;
+    -webkit-animation-duration: 1s;
     animation-fill-mode: both;
-    -webkit-animation-timing-function: linear;
+    -webkit-animation-fill-mode: both;
     animation-timing-function: linear;
+    -webkit-animation-timing-function: linear;
     animation-iteration-count: infinite;
     -webkit-animation-iteration-count: infinite;
 }
