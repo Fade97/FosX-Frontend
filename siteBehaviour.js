@@ -1,8 +1,15 @@
 console.log("Loaded");
 var scrollLink = document.getElementById('scrollDown');
-scrollLink.onclick = showFoo;
+scrollLink.onclick = scrollToContent;
+var scrollShop = document.getElementById('scrollShop');
+scrollShop.onclick = scrollToContent;
 
-function showFoo() {
+function scrollToContent() {
     var objDiv = document.getElementById("content");
+    objDiv.scrollIntoView(true);
+}
+
+function scrollToShop() {
+    var objDiv = document.getElementById("shopSection");
     objDiv.scrollIntoView(true);
 }

@@ -15,7 +15,8 @@
     <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png" />
     <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png" />
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png" />
-
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 
     <script src="https://kit.fontawesome.com/5a657e4b94.js" crossorigin="anonymous"></script>
@@ -25,13 +26,40 @@
 
 
 <body>
+    <div id="headerBar">
+        <div class="headerItem">
+            <img src="Logo_Horizontal_Name.svg"></img>
+        </div>
+        <div id="shopSection" class="headerItem itemRight">
+            <div class="ec-cart-widget"></div>
+            <div>
+                <script data-cfasync="false" type="text/javascript"
+                    src="https://app.ecwid.com/script.js?44310517&data_platform=code&data_date=2021-01-09"
+                    charset="utf-8"></script>
+                <script type="text/javascript">Ecwid.init();</script>
+            </div>
+        </div>
+        <div id="scrollShop" class="headerItem itemRight">
+            <a href="#!/c/0">Shop</a>
+        </div>
+    </div>
     <div id="headerBg"></div>
     <div id="scrollDown" class="animated bounce">
         <i class="fas fa-sort-down 9x"></i>
     </div>
     <div id="content">
-        asdjajs
+
     </div>
+    <div class="spacer"></div>
+    <div id="my-store-44310517"></div>
+    <div>
+        <script data-cfasync="false" type="text/javascript"
+            src="https://app.ecwid.com/script.js?44310517&data_platform=code&data_date=2021-01-09"
+            charset="utf-8"></script>
+        <script
+            type="text/javascript"> xProductBrowser("categoriesPerRow=3", "views=grid(20,3) list(60) table(60)", "categoryView=grid", "searchView=list", "id=my-store-44310517");</script>
+    </div>
+
 </body>
 
 <script type="text/javascript" src="siteBehaviour.js"></script>
