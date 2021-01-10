@@ -96,6 +96,51 @@ body {
     padding-top:50px;
 }
 
+/* Footer */
+
+.footer{
+    z-index: 10;
+    position: fixed;
+    background-color: rgba(0, 0, 0, .8);
+    width: 100%;
+    height: 60px;
+    bottom: 0;
+}
+
+.footerText{
+    margin: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.footerText a{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    margin-right: 20px;
+}
+
+
+.footerText a:visited{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.footerText a:link{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.footerText a:hover{
+    text-decoration: none;
+    color: #fff;
+    border-bottom: 3px solid rgba(0, 97, 187, 0.8);
+}
+
 /* Scroll Down Button */
 
 #scrollDown {
